@@ -1,4 +1,13 @@
+hostout.debian
+**************
 
+A plugin for collective.hostout for debian host.
+
+- Code repository: http://github.com/macagua/hostout.debian
+- Questions and comments to http://github.com/macagua/hostout.debian/issues
+- Report bugs at http://github.com/macagua/hostout.debian/issues
+
+.. contents::
 
 What does it do?
 ****************
