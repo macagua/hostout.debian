@@ -41,5 +41,3 @@ Hostout puts all of the settings for all of your environments in an easy-to-mana
 .. _recipe: http://pypi.python.org/pypi/zc.buildout#recipes
 .. _fabric: http://fabfile.org
 
-.. contents::
-
