@@ -1,0 +1,7 @@
+Release History
+***************
+
+0.1a (2010-11-24)
+------------------
+
+- Fork initial from natea's hostout.ubuntu (https://github.com/natea/hostout.ubuntu)
