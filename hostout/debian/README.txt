@@ -2,12 +2,12 @@
 Installing
 **********
 
-hostout.ubuntu is a plugin for collective.hostout_. Hostout is a zc.buildout
+hostout.debian is a plugin for collective.hostout_. Hostout is a zc.buildout
 recipe.
 
 First you need a working buildout_. Google buildout + your fav app framework to findout how to build it.
 We'll use a really simple one and add a hostout to our buildout and we extend
-hostout by adding the ubuntu plugin using the "extends"
+hostout by adding the debian plugin using the "extends"
 option.
 
 
@@ -26,7 +26,7 @@ option.
 ... [host]
 ... recipe = collective.hostout
 ... host = 127.0.0.1:10022
-... extends = hostout.ubuntu
+... extends = hostout.debian
 ...
 ... """)
 
@@ -37,7 +37,7 @@ Installing host.
 Generated script '/sample-buildout/bin/hostout'.
 
 During deployment hostout will check for a working buildout on the remote
-host and if not found will execute an ubuntu bootstrap installing
+host and if not found will execute an debian bootstrap installing
 native packages
 
 >>> print system('bin/hostout host deploy')

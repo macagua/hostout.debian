@@ -30,7 +30,7 @@ class Recipe:
 
     def __init__(self, buildout, name, options):
         self.name, self.options, self.buildout = name, options, buildout
-        options.setdefault('hostos','ubuntu') # used by hostout.cloud
+        options.setdefault('hostos','debian') # used by hostout.cloud
 
     def install(self):
         return []
